@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Login(){return <main className="mx-auto max-w-md p-6"><div className="card mt-16"><h1 className="text-2xl font-semibold">Family Login</h1><input className="mt-4 w-full rounded-lg border border-white/15 bg-navy p-3" placeholder="Patient ID / ABHA"/><button className="mt-3 w-full rounded-lg border border-teal p-3 text-teal">Request OTP</button><Link href="/dashboard" className="mt-3 block w-full rounded-lg bg-teal p-3 text-center font-semibold text-navy">Demo Access</Link></div></main>}
